@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "A simple Express app connected to MySQL",
   "main": "server.js",
+  "type": "module",
+
   "scripts": {
     "start": "nodemon server.js"
   },

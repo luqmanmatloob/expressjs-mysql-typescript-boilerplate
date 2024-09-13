@@ -7,9 +7,12 @@ export const getAllUsers = (req: Request, res: Response): void => {
     if (err) {
       console.error('Error querying the database:', err);
       res.status(500).send('Error querying the database');
+
+
       return;
     }
     res.json(results);
+    
   });
 };
 

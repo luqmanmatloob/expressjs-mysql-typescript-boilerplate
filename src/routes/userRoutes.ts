@@ -4,8 +4,13 @@ import { getAllUsers, createUser } from '../controllers/userControllers.js';
 const router = express.Router();
 
 // Route to get all users
-router.get('/', getAllUsers);
+// router.get('/', getAllUsers);
 
+
+
+
+
+console.log("hello")
 
 
 
@@ -15,4 +20,8 @@ router.post('/', createUser);
 
 
 
+
+
+
 export default router;
+

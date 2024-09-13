@@ -1,0 +1,1 @@
+'dev' does not reflect changes into dist if we delete files in src direcotry, we can run 'clean' for that
